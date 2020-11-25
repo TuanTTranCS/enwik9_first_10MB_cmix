@@ -16,4 +16,22 @@ You can try download the source code from https://www.byronknoll.com/cmix.html a
         cmix -c dictionary\english.dic enwik9.head enwik9.head_cmix
         
    The compression algorithm will take some time to complete, nearly 4 hours for a Google compute instance with type n1-standard-16 (16 vCPUs, 60 GB memory). However the compression ratio is really state of the art (SOTA) these days.
+   
    ![compress_cmix](/img/cmix_compress.png)
+   
+***However***, with a computer with 16GB, the author experienced the compression process get killed in the middle (at about 89%)!!!
+
+   
+**Instruction to run decompression (using cmix-v18):**
+
+In order to decompress file ***enwik9.head_cmix*** and retrieve back the original file with a new name ***enwik9.head_cmix_decompressed***, we just need to run the cmix decompress command:
+      
+      In linux/OSX:
+      ./cmix -d ./dictionary/english.dic enwik9.head_cmix enwik9.head_cmix_decompressed
+
+      In Windows:
+      cmix -d dictionary\english.dic enwik9.head_cmix enwik9.head_cmix_decompressed
+      
+   Decompression result:
+   
+   ![compress_cmix](/img/cmix_decompress.png)
