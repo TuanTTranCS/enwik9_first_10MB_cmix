@@ -1,5 +1,5 @@
-# enwik9.head_10MB_cmix
-Compressed and decompressed file using cmix-v18 on the first 10 MB of the enwik9 file
+# Play with cmix compression algorithm on the enwik9 dataset
+Compressed and decompressed the first 10 MB of the enwik9 file using cmix-v18 
 
 You can try download the source code from https://www.byronknoll.com/cmix.html and compile to run on a computer with at least 32GB of RAM (recommended). Windows users can download the already compiled version instead and run directly.
 
