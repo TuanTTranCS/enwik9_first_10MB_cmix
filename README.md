@@ -3,7 +3,7 @@ Compressed and decompressed file using cmix-v18 on the first 10 MB of the enwik9
 
 You can try download the source code from https://www.byronknoll.com/cmix.html and compile to run on a computer with at least 32GB of RAM (recommended). Windows users can download the already compiled version instead and run directly.
 
-**Instruction to run compression (using cmix-v18):**
+### Instruction to run compression (using cmix-v18)
 1. Copy the file to be compressed (*enwik9.head*) into the cmix folder
 
    The data file can be download from [/files](https://github.com/littleghost1712/enwik9_first_10MB_cmix/tree/main/files) folder, or can be auto generated using the Notebook ***Data_prep_enwik9_head_10mb.ipynb***
@@ -22,7 +22,7 @@ You can try download the source code from https://www.byronknoll.com/cmix.html a
 ***However***, with a computer with 16GB, the author experienced the compression process get killed in the middle (at about 89%)!!!
 
    
-**Instruction to run decompression (using cmix-v18):**
+### Instruction to run decompression (using cmix-v18)
 
 In order to decompress file ***enwik9.head_cmix*** and retrieve back the original file with a new name ***enwik9.head_cmix_decompressed***, we just need to run the cmix decompress command:
       
