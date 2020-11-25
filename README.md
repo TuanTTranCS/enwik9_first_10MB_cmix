@@ -16,4 +16,4 @@ You can try download the source code from https://www.byronknoll.com/cmix.html a
         cmix -c dictionary\english.dic enwik9.head enwik9.head_cmix
         
    The compression algorithm will take some time to complete, nearly 4 hours for a Google compute instance with type n1-standard-16 (16 vCPUs, 60 GB memory). However the compression ratio is really state of the art (SOTA) these days.
-   ![compress_cmix](/imgs/compress_cmix.png)
+   ![compress_cmix](/img/cmix_compress.png)
